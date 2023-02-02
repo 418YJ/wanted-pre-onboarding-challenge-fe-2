@@ -1,0 +1,121 @@
+h1 {
+  text-align: center;
+}
+
+input {
+  height: 2rem;
+  margin-bottom: .875rem;
+  margin-left: .875rem;
+  padding: 0 1rem;
+}
+
+#todo-add {
+  justify-content: center;
+  display: flex;
+}
+
+#todo-add-title {
+  text-align: center;
+}
+
+#todo-add-container {
+  border: 3px dashed #000;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin: 1rem 0;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+#add-btn {
+  background: var(--bg-tag);
+  height: 2rem;
+  color: var(--primary1);
+  border-radius: 1rem;
+  align-items: center;
+  margin-bottom: .875rem;
+  margin-right: .875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+#save-btn {
+  justify-content: center;
+  display: flex;
+}
+
+#todo-save {
+  cursor: pointer;
+  color: #fff;
+  height: 3rem;
+  background: #000;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1rem;
+  display: inline-flex;
+}
+
+#todo-tag {
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+#tag-add-btn {
+  height: 2rem;
+  border-radius: 1rem;
+  align-items: center;
+  margin-bottom: .875rem;
+  margin-right: .875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+#todo-list {
+  text-align: center;
+  border: 3px dashed #000;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 30px 0;
+  display: flex;
+}
+
+#filter-btn {
+  cursor: pointer;
+  color: #fff;
+  height: 2rem;
+  background: #000;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.25rem;
+  font-size: 1rem;
+  display: inline-flex;
+}
+
+#delete-all-btn {
+  cursor: pointer;
+  color: #fff;
+  height: 3rem;
+  background: #000;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  font-size: 1rem;
+  display: inline-flex;
+}
+
+/*# sourceMappingURL=index.e5980c4e.css.map */
