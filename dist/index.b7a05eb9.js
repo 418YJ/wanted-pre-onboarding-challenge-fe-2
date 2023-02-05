@@ -557,8 +557,13 @@ function hmrAccept(bundle, id) {
 }
 
 },{}],"jeorp":[function(require,module,exports) {
-const toDoDetail = document.getElementById("todo-detail");
-const TodoList = [];
+/** To-do List Type interface */ /** To-do List Category input */ const toDoCategory = document.getElementById("todo-category");
+/** To-do List detail input */ const toDoDetail = document.getElementById("todo-detail");
+/** To-do List save button */ const saveBtn = document.getElementById("todo-save");
+/** To-do List 객체 담는 배열 */ const TodoList = [];
+saveBtn.addEventListener("click", handleToSubmit);
+/** 저장버튼 클릭시 이벤트 함수 */ function handleToSubmit(event) {}
+/** 투두리스트 그려주는 함수 */ function paintTodo() {}
 
 },{}]},["cnpQZ","jeorp"], "jeorp", "parcelRequirec878")
 

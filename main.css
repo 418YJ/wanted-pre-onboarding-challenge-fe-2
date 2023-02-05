@@ -10,9 +10,13 @@ input{
   padding: 0 1rem;
 }
 
-#todo-add{
-  display: flex;
-  justify-content: center;
+
+#todo-category{
+  padding: auto;
+  height: 2rem;
+  margin-left: 0.875rem;
+  margin-bottom: 0.875rem;
+  padding: 0 1rem;
 }
 
 #todo-add-title{
